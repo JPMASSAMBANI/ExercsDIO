@@ -1,1 +1,37 @@
+# ==========================================
+# Configurações do Eclipse / Workspace local
+# ==========================================
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
 
+# ==========================================
+# Arquivos de compilação Java
+# ==========================================
+*.class
+
+# Arquivos empacotados (caso gere JARs/WARs no futuro)
+*.jar
+*.war
+*.ear
+*.rar
+
+# ==========================================
+# Arquivos gerados por IDEs (VS Code / IntelliJ)
+# ==========================================
+.vscode/
+.idea/
+*.iml
+*.iws
+
+# ==========================================
+# Logs e arquivos do sistema operacional
+# ==========================================
+*.log
+.DS_Store
+Thumbs.db

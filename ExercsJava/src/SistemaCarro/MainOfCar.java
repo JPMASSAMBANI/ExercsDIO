@@ -34,5 +34,5 @@ public class MainOfCar {
 
 	public static void CarMain() {
 		
-		}
+	}
 }

@@ -2,12 +2,13 @@ package org.massambani;
 
 import java.util.Scanner;
 
-public class Conta {
+public class SimulaConta {
 
-	public static void main(String[] args) {
-
+	public static void Simulacao() {
+		
 		var sc = new Scanner(System.in);
 		
+		System.out.println("Digite seu nome e o tipo de conta a ser criada: ");
 		var input = sc.nextLine();
 		String[] partes = input.split(" ");
 		
@@ -24,5 +25,7 @@ public class Conta {
 		
 		sc.close();
 	}
+
+		
 
 }

@@ -2,7 +2,7 @@ package ContaBanco;
 
 import java.util.Scanner;
 
-public class Conta {
+public class Conta  {
 	
 	private String name;
 	
@@ -14,10 +14,8 @@ public class Conta {
 	
 	private Double overdraft;
 	private Double outstanding = 0.0;
+
 	Double percent;
-     
-	
-	
 	
 	public Conta() {
 		super();
@@ -133,11 +131,7 @@ public class Conta {
 	public void setOutstanding(Double outstanding) {
 		this.outstanding = outstanding;
 	}
+
 	
-	
-	
-	
-	
-	
-	
+
 }
